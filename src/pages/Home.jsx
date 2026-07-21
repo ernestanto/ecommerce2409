@@ -187,6 +187,7 @@ export default function Home() {
           <ProductCard key={p.id} product={p} />
         ))}
       </div>
+      <h1>hi,im just testing</h1>
     </>
   );
 }

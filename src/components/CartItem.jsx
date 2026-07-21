@@ -58,7 +58,7 @@ const CartItem = ({ item }) => {
       </div>
 
       <button className="remove-button" onClick={() => dispatch(removeFromCart(item.id))}>
-        Remove
+        Remove product
       </button>
 
       <style jsx="true">{`

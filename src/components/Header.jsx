@@ -10,10 +10,10 @@ const Header = () => {
   return (
   <header style={styles.header}>
     <div style={styles.logoWrapper}>
-      <div style={styles.logoText}>🛒 TechStore</div>
+      <div style={styles.logoText}>🛒 TechieStore</div>
     </div>
     <nav style={styles.nav}>
-      <Link to="/home" style={styles.link}>Home</Link>
+      <Link to="/home" style={styles.link}>Homee</Link>
       <Link to="/cart" style={styles.cartLink}>
         Cart <span style={styles.cartBadge}>{totalItems}</span>
       </Link>

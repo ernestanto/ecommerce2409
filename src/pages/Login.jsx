@@ -38,7 +38,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <form onSubmit={handleLogin} className="login-form">
-        <h1>Welcome Back</h1>
+        <h1>Welcome Back to sign-in page</h1>
         <input
           type="email"
           placeholder="Enter your email"
@@ -53,7 +53,7 @@ const Login = () => {
           required
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">Login</button>
+        <button type="submit">signin</button>
         <p className="redirect">
           New user?{' '}
           <span onClick={() => navigate('/')}>

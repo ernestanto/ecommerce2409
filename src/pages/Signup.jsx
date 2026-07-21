@@ -31,7 +31,7 @@ const Signup = () => {
     <div className="signup-container">
       <form onSubmit={handleSignup} className="signup-form">
        <h2>Create an Account</h2>
-        <p>Sign up to get started</p>
+        <p>Sign up</p>
         <input
           type="email"
           placeholder="Enter your email"
@@ -49,7 +49,7 @@ const Signup = () => {
         <button type="submit">Sign Up</button>
         <p className="redirect">
           Already have an account?{' '}
-          <span onClick={() => navigate('/login')}>Login here</span>
+          <span onClick={() => navigate('/login')}>signin here</span>
         </p>
       </form>
 
